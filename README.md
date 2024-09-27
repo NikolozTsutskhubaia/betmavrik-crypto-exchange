@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository to your local machine:
 
-   git clone https://github.com/yourusername/betmavrik-test.git
+   git clone https://github.com/NikolozTsutskhubaia/betmavrik-crypto-exchange
    cd betmavrik-test
 
 2. Install dependencies (if running locally):
