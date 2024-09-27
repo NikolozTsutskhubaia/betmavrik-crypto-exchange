@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: betmavrik-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: betmavrik-test
+  template:
+    metadata:
+      labels:
+        app: betmavrik-test
+    spec:
+      containers:
+        - name: betmavrik-test
+          image: betmavrik-test:latest
+          ports:
+            - containerPort: 3000
